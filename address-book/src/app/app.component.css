@@ -1,0 +1,32 @@
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.brand-text span:first-child {
+  font-size: 1.5rem;
+  color: skyblue;
+}
+
+.brand-text span:last-child {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+
+.container {
+  margin-top: 20px;
+}
